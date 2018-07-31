@@ -4,7 +4,7 @@
 #
 Name     : colcon-common-extensions
 Version  : 0.2.0
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/66/41/72f618236c6bac205abe253479100df09fddde237f3949f247e70b6e081c/colcon-common-extensions-0.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/66/41/72f618236c6bac205abe253479100df09fddde237f3949f247e70b6e081c/colcon-common-extensions-0.2.0.tar.gz
 Summary  : Meta package aggregating colcon-core and common extensions.
@@ -12,6 +12,22 @@ Group    : Development/Tools
 License  : Apache-2.0
 Requires: colcon-common-extensions-python3
 Requires: colcon-common-extensions-python
+Requires: colcon-bash
+Requires: colcon-cmake
+Requires: colcon-core
+Requires: colcon-defaults
+Requires: colcon-devtools
+Requires: colcon-library-path
+Requires: colcon-metadata
+Requires: colcon-output
+Requires: colcon-package-information
+Requires: colcon-parallel-executor
+Requires: colcon-powershell
+Requires: colcon-python-setup-py
+Requires: colcon-recursive-crawl
+Requires: colcon-ros
+Requires: colcon-test-result
+Requires: colcon-zsh
 BuildRequires : buildreq-distutils3
 
 %description
@@ -43,7 +59,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532979756
+export SOURCE_DATE_EPOCH=1533001614
 python3 setup.py build -b py3
 
 %install
