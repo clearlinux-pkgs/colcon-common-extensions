@@ -4,7 +4,7 @@
 #
 Name     : colcon-common-extensions
 Version  : 0.2.0
-Release  : 5
+Release  : 6
 URL      : https://files.pythonhosted.org/packages/66/41/72f618236c6bac205abe253479100df09fddde237f3949f247e70b6e081c/colcon-common-extensions-0.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/66/41/72f618236c6bac205abe253479100df09fddde237f3949f247e70b6e081c/colcon-common-extensions-0.2.0.tar.gz
 Summary  : Meta package aggregating colcon-core and common extensions.
